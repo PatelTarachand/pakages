@@ -1,0 +1,18 @@
+{
+    "name": "patel/product",
+    "description": "test product",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Patel\\Product\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Patel"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

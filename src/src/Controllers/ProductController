@@ -1,0 +1,14 @@
+<?php
+namespace Patel\Product\Controllers;
+
+use Illuminate\Http\Request;
+use Patel\Product\product;
+
+class InspirationController
+{
+    public function __invoke(Test $test) {
+        $quote = $test->index();
+
+        return $quote';
+    }
+}
